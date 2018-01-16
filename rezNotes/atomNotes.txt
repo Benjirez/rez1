@@ -1,6 +1,6 @@
 ATOM NOTES
 
-ctl-shift-3 for atom live server on localhost:3000
+ctl-alt-3 for atom live server on localhost:3000
 
 ! tab for basic HTML page
 
