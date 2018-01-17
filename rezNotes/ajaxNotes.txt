@@ -8,10 +8,16 @@ request object ready states:
   4 - request is complete
 
   window.onload = function(){
+
     var request_obj = new XMLHttpRequest(); // ajax object available in all modern browsers
-    //console.log(request_obj);
+
+    request_obj.onreadystatechange = function(){
+      if(request_obj.readyState == 4 && request_obj.status == 200){
+        console.log( JSON.parse( request_obj.response ) );
+      }
+    }
+
     request_obj.open('GET', 'data/dummy.json', true) // true for async (or false for sync)
-    //console.log(request_obj);
     request_obj.send();
-    //console.log(request_obj);
+
   }
