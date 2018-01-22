@@ -3,6 +3,6 @@
 
 //window.onload = function(){
   //console.log('*** ajaxjQuery ***');
-  $.get('data/dummy.json', function(data){ console.log('ajaxjQuery data:' ); console.log( data ); } );
+  $.get('/../data/dummy.json', function(data){ console.log('ajaxjQuery data:' ); console.log( data ); } );
 
 //}

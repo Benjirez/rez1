@@ -5,12 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
   <title>Rez1</title>
 </head>
-<body>every mo'nin'...<br>all night long...<br>
-  <!-- scripts yo -->
-  <script src="rezBox/ajaxBasic.js"></script>
-  <script src="rezBox/ajaxjQuery.js"></script>
-  <script type="text/javascript"> console.log('keyhole'); </script>
+<body>
+	check out my mic-ro-phone mic-ro-phone
+  <script>
+    console.log( 'poor otis running script');
+    $.get('data/dummy.html', function( data ){
+      //console.log( data);
+      $('body').append( data )
+    });
+  </script>
+
 </body>
 </html>
