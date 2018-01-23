@@ -15,3 +15,6 @@ git push origin master
 git pull origin master
 
 // See/Hide .git, un/check Hide VCS Ignored Files (in Settings > Packages > Core Packages > Tree View, see: https://medium.com/@panayiotisgeorgiou/how-to-show-hidden-files-atom-sidebar-c75a2de68709)
+
+// change remote url
+git remote set-url origin https://github.com/url...
