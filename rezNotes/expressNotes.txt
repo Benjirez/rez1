@@ -1,5 +1,7 @@
 express Notes
 
+//MIME type info: https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types
+
 npm install express -save //(-save to include as dependency)
 
 var express = require('express');
